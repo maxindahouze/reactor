@@ -33,8 +33,8 @@ function check_params {
 
 function generate_compose {
     if [ -z ${amount} ]; then
-        echo -e "Amount of containers not set, setting to maximum of 50"
-        amount=50
+        echo -e "Amount of containers not set, setting to maximum of 15"
+        amount=15
     fi
 
     echo -e "version: '3'" > docker-compose.yml
