@@ -4,7 +4,7 @@
 # 2.0 - added external mirror for url list
 # 2.1 - added possibility to limit number of containers (for less powerful machines like 13in mbp pre M1)
 
-VERSION='2.1.1'
+VERSION='2.1.3'
 TARGETS_URL='https://raw.githubusercontent.com/maxindahouze/reactor/main/targets.json'
 
 function print_help {
@@ -33,8 +33,8 @@ function check_params {
 
 function generate_compose {
     if [ -z ${amount} ]; then
-        echo -e "Amount of containers not set, setting to maximum of 15"
-        amount=15
+        echo -e "Amount of containers not set, setting to maximum of 10
+        amount=10
     fi
 
     echo -e "version: '3'" > docker-compose.yml
