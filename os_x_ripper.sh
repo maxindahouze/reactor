@@ -33,7 +33,7 @@ function check_params {
 
 function generate_compose {
     if [ -z ${amount} ]; then
-        echo -e "Amount of containers not set, setting to maximum of 10
+        echo -e "Amount of containers not set, setting to maximum of 10"
         amount=10
     fi
 
