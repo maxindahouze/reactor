@@ -4,8 +4,8 @@
 # 2.0 - added external mirror for url list
 # 2.1 - added possibility to limit number of containers (for less powerful machines like 13in mbp pre M1)
 
-VERSION='2.1'
-TARGETS_URL='https://raw.githubusercontent.com/nitupkcuf/ripper-wrapper/main/targets.json'
+VERSION='2.1.1'
+TARGETS_URL='https://raw.githubusercontent.com/maxindahouze/reactor/main/targets.json'
 
 function print_help {
   echo -e "Usage: os_x_ripper.sh --mode install"
